@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Toyota Motor Corporation Clone</title>
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,8 +16,8 @@
 </head>
 
 <body>
-    <div class="container-fluid fixed-top border-bottom">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="border-bottom sticky-top">
+        <nav class="navbar navbar_expand_lg navbar-light bg-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -63,7 +64,7 @@
     </div>
     <div class="container-fluid main_img">
         <div class="bg-image">
-            <img src="./Images/001_sp.jpg" alt="">
+            <img src="./Images/no 1.jpg" alt="">
         </div>
         <div class="Main_Hd">
             <button class="btn btn-danger">
@@ -78,23 +79,89 @@
         </div>
     </div>
     <div class="container-fluid">
-        <p class="nav-link text-center mt-3 text-primary">
+        <a class="nav-link text-center my-4 textColor" href="#">
             Notification: Memorial Services for Shoichiro Toyoda
-        </p>
+        </a>
     </div>
-    <div class="container-fluid d-flex">
-        <div class="section_img">
-            <img src="./Images/20230213_01_t_w960_en.jpg" alt="">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./Images/20230213_01_t_w960_en.jpg" class="w-50" alt="...">
+                <div class="section_meaning float-end w-50 mt-5">
+                    <p class="slide_date">Feb. 22, 2023</p>
+                    <h1 class="fw-bold">Mobility for All</h1>
+                    <h1 class="fw-bold">--Racing Spurs a World-First Experiment</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio ex impedit sint
+                        fugiat
+                        consequatur, nam quidem beatae eum adipisci repudiandae? Illum iure, dolorem molestias
+                        temporibus
+                        nobis
+                        eum cupiditate exercitationem.</p>
+                    <a class="fw-bold text-end nav-link" href="#">More &gt</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Images/20230223_01_t_w960_en.jpg" class="w-50" alt="...">
+                <div class="section_meaning float-end w-50 mt-5">
+                    <p class="slide_date">Feb. 22, 2023</p>
+                    <h1 class="fw-bold">World-First! Liquid Hydrogen Official</h1>
+                    <h1 class="fw-bold">Race Test at Fuji</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio ex impedit sint
+                        fugiat
+                        consequatur, nam quidem beatae eum adipisci repudiandae? Illum iure, dolorem molestias
+                        temporibus
+                        nobis
+                        eum cupiditate exercitationem.</p>
+                    <a class="fw-bold text-end nav-link" href="#">More &gt</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Images/20230224_01_t_w960_en.jpg" class="w-50" alt="...">
+                <div class="section_meaning float-end w-50 mt-5">
+                    <p class="slide_date">Feb. 22, 2023</p>
+                    <h1 class="fw-bold">Features Even Car Lovers Overlook</h1>
+                    <h1 class="fw-bold">--Delving Deep into UX Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio ex impedit sint
+                        fugiat
+                        consequatur, nam quidem beatae eum adipisci repudiandae? Illum iure, dolorem molestias
+                        temporibus
+                        nobis
+                        eum cupiditate exercitationem.</p>
+                    <a class="fw-bold text-end nav-link" href="#">More &gt</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Images/20230227_03_t_w960_en.jpg" class="w-50" alt="...">
+                <div class="section_meaning float-end w-50 mt-5">
+                    <p class="slide_date">Feb. 22, 2023</p>
+                    <h1 class="fw-bold">Deepening Ties in Difficult Times--1 Year</h1>
+                    <h1 class="fw-bold">on from Kojima Industries Cyberattack</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio ex impedit sint
+                        fugiat
+                        consequatur, nam quidem beatae eum adipisci repudiandae? Illum iure, dolorem molestias
+                        temporibus
+                        nobis
+                        eum cupiditate exercitationem.</p>
+                    <a class="fw-bold text-end nav-link" href="#">More &gt</a>
+                </div>
+            </div>
         </div>
-        <div class="section_meaning">
-            <p class="">Feb. 22, 2023</p>
-            <h1 class="fw-bold">Mobility for All</h1>
-            <h1 class="fw-bold">--Racing Spurs a World-First Experiment</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio ex impedit sint fugiat
-                consequatur, nam quidem beatae eum adipisci repudiandae? Illum iure, dolorem molestias temporibus nobis
-                eum cupiditate exercitationem.</p>
-            <p class="fw-bold text-end">More &gt</p>
+        <div class="slides d-flex justify-content-center p-3">
+            <input type="radio" name="radio-btn" id="radio1" class="radioBtn">
+            <input type="radio" name="radio-btn" id="radio2" class="radioBtn">
+            <input type="radio" name="radio-btn" id="radio3" class="radioBtn">
+            <input type="radio" name="radio-btn" id="radio4" class="radioBtn">
         </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> -->
     </div>
     <div class="container-fluid main_img">
         <!-- <div class="bg-image">
@@ -141,47 +208,49 @@
                 </p>
             </div>
             <div class="d-flex">
-                <div>
-                    <img src="./Images/20230301_02_t_w610.jpg" alt="" style="width: 150px;">
+                <div class="side_img">
+                    <img src="./Images/toyota.jpg" alt="" class="mb-1">
                 </div>
                 <div class="bg-lights ps-3">
-                    <p class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
+                    <div class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
                         Mar. 01, 2023
-                    </p>
+                    </div>
                     <h6>
                         Toyota Launches All-New Prius PHEV in Japan
                     </h6>
                 </div>
             </div>
             <div class="d-flex">
-                <div>
-                    <img src="./Images/20230301_01_t_w610.jpg" alt="" style="width: 150px;">
+                <div class="side_img">
+                    <img src="./Images/wheel chair.jpg" alt="" class="mb-1">
                 </div>
                 <div class="bg-lights bg_meri ps-3">
                     <p class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
                         Mar. 01, 2023
                     </p>
                     <h6 class="overflow-hidden">
-                        Aiming to Realize an Ever-Better Mobility Society, Toyota Mobility Foundation Starts Accepting Applications for...
+                        Aiming to Realize an Ever-Better Mobility Society, Toyota Mobility Foundation Starts Accepting
+                        Applications for...
                     </h6>
                 </div>
             </div>
             <div class="d-flex">
-                <div>
-                    <img src="./Images/20230227_02_t_w610.jpg" alt="" style="width: 150px;">
+                <div class="side_img">
+                    <img src="./Images/milan.jpg" alt="" class="mb-1">
                 </div>
                 <div class="bg-lights ps-3">
                     <p class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
                         Mar. 01, 2023
                     </p>
                     <h6>
-                        Lexus to Present LEXUS DESIGN AWARD and Shaped by Air, an Homage to the Lexus Ethos of Sustainability,
+                        Lexus to Present LEXUS DESIGN AWARD and Shaped by Air, an Homage to the Lexus Ethos of
+                        Sustainability,
                     </h6>
                 </div>
             </div>
             <div class="d-flex">
-                <div>
-                    <img src="./Images/tmb_corporate.png" alt="" style="width: 150px;">
+                <div class="side_img">
+                    <img src="./Images/toyota.png" alt="" class="mb-1">
                 </div>
                 <div class="bg-lights ps-3">
                     <p class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
@@ -193,8 +262,8 @@
                 </div>
             </div>
             <div class="d-flex">
-                <div>
-                    <img src="./Images/20230215_02_t_w610.jpg" alt="" style="width: 150px;">
+                <div class="side_img">
+                    <img src="./Images/sports car.jpg" alt="" class="mb-1">
                 </div>
                 <div class="bg-lights ps-3">
                     <p class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
@@ -213,8 +282,8 @@
                 </h1>
             </div>
             <div class="d-flex">
-                <div>
-                    <img src="./Images/20230301_02_t_w610.jpg" alt="" style="width: 150px;">
+                <div class="side_img">
+                    <img src="./Images/sustainability.jpg" alt="" class="mb-1 float-start">
                 </div>
                 <div class="bg-lights ps-3">
                     <p class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
@@ -226,8 +295,8 @@
                 </div>
             </div>
             <div class="d-flex">
-                <div>
-                    <img src="./Images/20230301_01_t_w610.jpg" alt="" style="width: 150px;">
+                <div class="side_img">
+                    <img src="./Images/all children.jpg" alt="" class="mb-1">
                 </div>
                 <div class="bg-lights ps-3">
                     <p class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
@@ -239,8 +308,8 @@
                 </div>
             </div>
             <div class="d-flex">
-                <div>
-                    <img src="./Images/20230227_02_t_w610.jpg" alt="" style="width: 150px;">
+                <div class="side_img">
+                    <img src="./Images/toyota 2022.jpg" alt="" class="mb-1">
                 </div>
                 <div class="bg-lights ps-3">
                     <p class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
@@ -252,8 +321,8 @@
                 </div>
             </div>
             <div class="d-flex">
-                <div>
-                    <img src="./Images/tmb_corporate.png" alt="" style="width: 150px;">
+                <div class="side_img">
+                    <img src="./Images/solar plates.jpg" alt="" class="mb-1">
                 </div>
                 <div class="bg-lights ps-3">
                     <p class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
@@ -265,8 +334,8 @@
                 </div>
             </div>
             <div class="d-flex">
-                <div>
-                    <img src="./Images/20230215_02_t_w610.jpg" alt="" style="width: 150px;">
+                <div class="side_img">
+                    <img src="./Images/sustainability.jpg" alt="" class="mb-1">
                 </div>
                 <div class="bg-lights ps-3">
                     <p class="d-flex align-items-end mb-0 mt-4 " style="height: 30px;">
@@ -279,7 +348,80 @@
             </div>
         </div>
     </div>
-
+    <div class="container-fluid mt-5" style="margin-left: 110px;">
+        <div class="row" style="gap: 10px;">
+            <div class="col-md-3 me-4">
+                <img src="./Images/sdgs_t_w610_001.jpg" alt="" style="width: 110%; margin-bottom: 15px;">
+                <p class="text-center fw-bold">SDGs Initiatives <i class="fa-solid fa-up-right-from-square"></i></p>
+            </div>
+            <div class="col-md-3 me-4">
+                <img src="./Images/beyond-zero_t_w610_002.jpg" alt="" style="width: 110%; margin-bottom: 15px;">
+                <p class="text-center fw-bold">Beyond Zero</p>
+            </div>
+            <div class="col-md-3">
+                <img src="./Images/messages-from-executives_t_w610_001_en.jpg" alt=""
+                    style="width: 110%; margin-bottom: 15px;">
+                <p class="text-center fw-bold">Message from Management</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 fw-bold" style="font-size: 40px; margin-top: 80px;">Notices</h2>
+        <div class="d-flex align-items-center" style="margin-left: 180px;">
+            <p style="font-size: 11px;" class="me-4">Feb.24,2023</p>
+            <p style="font-size: 14px;">Notice: Memorial Service for Shoichiro Toyoda</p>
+        </div>
+        <div class="d-flex align-items-center" style="margin-left: 180px;">
+            <p style="font-size: 11px;" class="me-4">Feb.15,2023</p>
+            <p style="font-size: 14px;">Production Plan for March</p>
+        </div>
+        <div class="d-flex align-items-center" style="margin-left: 180px;">
+            <p style="font-size: 11px;" class="me-4">Feb.14,2023</p>
+            <p style="font-size: 14px;">Passing of TMC Honorary Chairman Shoichiro Toyoda</p>
+        </div>
+        <div class="d-flex align-items-center" style="margin-left: 180px;">
+            <p style="font-size: 11px;" class="me-4">Feb.10,2023</p>
+            <p style="font-size: 14px;">Toyota Responds to Urgent Need Following Devastating South-Eastern Turkey
+                Earthquake</p>
+        </div>
+    </div>
+    <div class="container-fluid bg-color mt-5 p-5">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="" class="nav-link" style="color: white !important;">Site Map</a>
+                <a href="" class="nav-link" style="color: white !important;">FAQ</a>
+                <a href="" class="nav-link" style="color: white !important;">Terms of Use</a>
+            </div>
+            <div class="col-md-4" style="border-left: 1px solid white;">
+                <a href="" class="nav-link" style="color: white !important;">Privacy Notice</a>
+            </div>
+            <div class="col-md-4" style="border-left: 1px solid white;">
+                <a href="" class="nav-link" style="color: white !important;">Mail Alert Registration</a>
+                <a href="" class="nav-link" style="color: white !important;">RSS</a>
+                <a href="" class="nav-link" style="color: white !important;">Related Websites and Social Media</a>
+                <div class="ms-2">
+                    <i class="fa-brands fa-square-facebook icon" style="color: white !important;" ></i>
+                    <i class="fa-brands fa-square-twitter icon" style="color: white !important;"></i>
+                    <i class="fa-brands fa-square-youtube icon" style="color: white !important;"></i>
+                    <i class="fa-brands fa-square-instagram icon" style="color: white !important;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark d-flex align-items-center p-4">
+        <div style="color: white; font-size: 14px;">
+            &copy 1995-2023 TOYOTA MOTOR CORPORATION. All Rights Reserved.
+        </div>
+        <div class="d-flex">
+            <a href="" class="nav-link fw-light me-0" style="color: white !important;">
+                Cookies Policy
+            </a>
+            <span style="color: white;" class="mt-1">|</span>
+            <a href="" class="nav-link fw-light " style="color: white !important;">
+                Your Privacy Choices (U.S residents)
+            </a>
+        </div>
+    </div>
 
 
 

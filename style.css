@@ -100,8 +100,20 @@
 }
 
 .bg_color {
-    background-color: rgba(0, 0, 0,0.2);
+    /* background-color: rgba(0, 0, 0,0.2); */
+    box-shadow: inset 0px -200px 140px -100px #363636;
     background-blend-mode: multiply;
+}
+
+.bg_color:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.date {
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .bg-image-1 {
